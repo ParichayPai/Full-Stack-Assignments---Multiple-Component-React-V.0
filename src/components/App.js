@@ -7,15 +7,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectName: "ProjectName",
-      projectDescription: "ProjectDesription"
+      projectName: "project-name",
+      projectDescription: "project-description"
     };
   }
   render() {
     return (
       <>
-        <ProjectName dataNsTest={this.state.projectName} />
-        <ProjectDescription dataNsTest={this.state.projectDescription} />
+        <ProjectName data-ns-test={this.state.projectName} />
+        <ProjectDescription data-ns-test={this.state.projectDescription} />
       </>
     );
   }
