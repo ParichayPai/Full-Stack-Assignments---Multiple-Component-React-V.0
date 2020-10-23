@@ -1,8 +1,12 @@
 import React from "react";
 
 class ProjectDescription extends React.Component {
+  constructor(props) {
+    super(props);
+    this.projectDescription = props.dataNsTest;
+  }
   render() {
-    return <p>Hello There. This is the project-description</p>;
+    return <p>{this.projectDescription}</p>;
   }
 }
 

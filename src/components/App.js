@@ -4,11 +4,18 @@ import ProjectName from "./ProjectName";
 import ProjectDescription from "./ProjectDescription";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      projectName: "ProjectName",
+      projectDescription: "ProjectDesription"
+    };
+  }
   render() {
     return (
       <>
-        <ProjectName key="project-name" />
-        <ProjectDescription key="project-description" />
+        <ProjectName dataNsTest={this.state.projectName} />
+        <ProjectDescription dataNsTest={this.state.projectDescription} />
       </>
     );
   }
