@@ -1,14 +1,14 @@
 import React, { Component, useState } from "react";
-import projectName from "./project-name";
 import "../styles/App.css";
-import projectDescription from "./project-description";
+import ProjectName from "./ProjectName";
+import ProjectDescription from "./ProjectDescription";
 
 class App extends Component {
   render() {
     return (
       <>
-        <projectName key="project-name" />
-        <projectDescription key="project-description" />
+        <ProjectName key="project-name" />
+        <ProjectDescription key="project-description" />
       </>
     );
   }
