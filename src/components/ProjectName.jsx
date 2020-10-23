@@ -2,7 +2,7 @@ import React from "react";
 
 class ProjectName extends React.Component {
   render() {
-    return <p>Hello There. This is the project-description</p>;
+    return <h1>Review App</h1>;
   }
 }
 
