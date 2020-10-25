@@ -14,8 +14,8 @@ class App extends Component {
   render() {
     return (
       <>
-        <ProjectName data-ns-test={"project-name"} />
-        <ProjectDescription data-ns-test={"project-description"} />
+        <ProjectName data-ns-test="project-name" />
+        <ProjectDescription data-ns-test="project-description" />
       </>
     );
   }
